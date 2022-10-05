@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{5EC4956D-0ADB-4722-B14E-10879B37FF9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{F6576732-5376-497B-B24D-5946D710A649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{F6576732-5376-497B-B24D-5946D710A649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{B5C625F5-7FE6-4AA5-B637-401E5AC5BDD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{F6576732-5376-497B-B24D-5946D710A649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6576732-5376-497B-B24D-5946D710A649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6576732-5376-497B-B24D-5946D710A649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C625F5-7FE6-4AA5-B637-401E5AC5BDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C625F5-7FE6-4AA5-B637-401E5AC5BDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C625F5-7FE6-4AA5-B637-401E5AC5BDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C625F5-7FE6-4AA5-B637-401E5AC5BDD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5EC4956D-0ADB-4722-B14E-10879B37FF9D} = {925D8B24-FBD0-444E-A93D-949B4D4B8EF7}
 		{F6576732-5376-497B-B24D-5946D710A649} = {97AA8968-2DC0-43E8-BDAA-26A1A743C2A3}
+		{B5C625F5-7FE6-4AA5-B637-401E5AC5BDD2} = {50F668D9-9229-44C3-B6E9-30ABC5AFEAF0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99BBA6AC-F588-49C3-98D2-52221473E187}
