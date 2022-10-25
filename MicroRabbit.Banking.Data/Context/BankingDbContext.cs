@@ -12,7 +12,7 @@ namespace MicroRabbit.Banking.Data.Context
     {
         public BankingDbContext(DbContextOptions options): base(options)
         {
-
+            
         }
 
         public DbSet<Account> Accounts { get; set; }
